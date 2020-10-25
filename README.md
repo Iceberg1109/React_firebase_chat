@@ -1,4 +1,4 @@
-You can see the demo [here](https://firechat-typescript.vercel.app/)
+You can see the demo [here](https://react-firebase-chat-red.vercel.app/)
 
 ## What it is
 
