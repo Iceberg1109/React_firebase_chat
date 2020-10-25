@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+/* Waiting Room */
+.waiting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.waiting--me {
+  color: #7b7b7b;
+  font-size: 30px;
+}
+
+.waiting--img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+/* Chat Room */
+.chatroom {
+  font-family: "Work Sans", sans-serif;
+}
+.chat--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 20px 46px;
+}
+
+.chat--next {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: url("./assets/icons/SVG/refresh.svg");
+  background-size: contain;
+  cursor: pointer;
+}
+.chat--profile__img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+}
+
+.chat--profile__name {
+  color: #2c2c2c;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.chat--profile__status {
+  color: #7b7b7b;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.chat--me {
+  font-size: 18px;
+  line-height: 21px;
+  color: #7b7b7b;
+  text-align: center;
+}
+
+.chat--message__container {
+  height: calc(100vh - 240px);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.chat--message__container > :first-child {
+  margin-top: auto;
+}
+
+.chat--message {
+  display: flex;
+  margin: 16px 0px;
+}
+
+.chat--message p {
+  font-size: 18px;
+  line-height: 21px;
+  padding: 16px 30px;
+  max-width: 500px;
+  word-break: break-word;
+}
+.chat--message img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  align-self: flex-end;
+}
+
+.chat--message__sent {
+  flex-direction: row-reverse;
+}
+
+.chat--message__sent p {
+  color: #fff;
+  background-color: #6ae59b;
+  border-radius: 20px 20px 0px 20px;
+  margin: 0px 10px 0px;
+}
+
+.chat--message__received p {
+  color: #2c2c2c;
+  background-color: #dedede;
+  border-radius: 20px 20px 20px 0px;
+  margin: 0px 0px 0px 10px;
+}
+
+.chat--form {
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 16px 25px;
+  display: flex;
+}
+
+.chat--form input {
+  border: none;
+  width: 100%;
+}
+.chat--form input:focus {
+  outline: none;
+}
+
+.chat--form button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: url("./assets/icons/SVG/send-message.svg");
+}
